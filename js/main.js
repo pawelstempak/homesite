@@ -275,19 +275,19 @@ function initContactForm() {
         const message = document.getElementById('message').value.trim(); 
         
         if (!name || !email || !message) { 
-            alert('Prosz� wype�ni� wszystkie wymagane pola.'); 
+            alert('Proszę wypełnić wszystkie wymagane pola.'); 
             return; 
         } 
         
         const submitBtn = form.querySelector('button[type=submit]'); 
         const originalText = submitBtn.innerHTML; 
         
-        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysy�anie...'; 
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysyłanie...'; 
         submitBtn.disabled = true; 
         
         // Simulate sending 
         setTimeout(function() { 
-            submitBtn.innerHTML = '<i class="fas fa-check"></i> Wys�ano!'; 
+            submitBtn.innerHTML = '<i class="fas fa-check"></i> Wysłano!'; 
             submitBtn.style.background = '#22c55e'; 
             
             setTimeout(function() { 

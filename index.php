@@ -247,7 +247,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>DTP, Logotype</span>
+                                <span>DTP, Logo</span>
                                 <span class="skill-percent">90%</span>
                             </div>
                             <div class="skill-bar">
@@ -360,15 +360,38 @@
             <div class="projects-filter">
                 <button class="filter-btn active" data-filter="all">Wszystkie</button>
                 <button class="filter-btn" data-filter="www">Strony WWW</button>
-                <button class="filter-btn" data-filter="fullstack">Logo</button>
+                <button class="filter-btn" data-filter="logo">Logo</button>
                 <button class="filter-btn" data-filter="api">Aplikacje</button>
             </div>
             <div class="projects-grid">
-                <!-- Project 1 -->
+                <!-- Project WWW MCLUXMED -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <img src="media/tatarska4.jpeg" id="modalImage" alt="Apartamenty Tatarska 4 - Podgląd">
+                            <img src="media/www/mcluxmed.jpeg" id="modalImage" alt="MCLUXMED - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-mcluxmed').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Mcluxmed</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project WWW TATARSKA4 -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/tatarska4.jpeg" id="modalImage" alt="Apartamenty Tatarska 4 - Podgląd">
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
@@ -388,11 +411,158 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project 2 -->
+                <!-- Project LOGO TATARSKA 4 -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/tatarska4.jpg" id="modalImage" alt="Logo Apartamenty Tatarska 4">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="media/logo/kz_tatarska4.pdf" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>Apartamenty Tatarska 4</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>     
+                <!-- Project WWW OSIEDLE NOWE PRZEDMIESCIE -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <img src="media/safironutrition.jpeg" id="modalImage" alt="Safironutrition.com - Podgląd">
+                            <img src="media/www/osiedlenoweprzedmiescie.jpeg" id="modalImage" alt="Osiedle Nowe Przedmiescie - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-osiedlenoweprzedmiescie').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <!--<a href="https://np.pawelstempak.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Osiedle Nowe Przedmiescie</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project LOGO OSIEDLE NOWE PRZEDMIESCIE -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/osiedlenoweprzedmiescie.jpg" id="modalImage" alt="Logo Osiedle Nowe Przedmiescie">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="media/logo/kz_osiedlenoweprzedmiescie.pdf" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>Osiedle Nowe Przedmiescie</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>                 
+                <!-- Project WWW NASOFIE.PL -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/nasofie.jpeg" id="modalImage" alt="Nasofie.pl - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-nasofie').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://nasofie.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Nasofie.pl</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>Tailwind CSS</span>
+                            <span>Alpine JS</span>
+                        </div>
+                    </div>
+                </div>                
+                <!-- Project LOGO NASOFIE.PL -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/nasofie.jpg" id="modalImage" alt="Logo Nasofie.pl">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>Nasofie.pl</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>                      
+                <!-- Project WWW TATARSKA DEVELOPER -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/tatarska_developer.jpeg" id="modalImage" alt="Tatarska Developer - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-tatarska-developer').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://new.apartamenty-tatarska4.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Tatarska Developer</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>Tailwind CSS</span>
+                            <span>Laravel</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project LOGO TATARSKA DEVELOPER -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/tatarska_developer.jpg" id="modalImage" alt="Logo Tatarska Developer">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>Tatarska Developer</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>                                              
+                <!-- Project WWW SAFIRONUTRITION -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/safironutrition.jpeg" id="modalImage" alt="Safironutrition.com - Podgląd">
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
@@ -406,10 +576,10 @@
                         <h3>Aplikacja do zarządzania zadaniami</h3>
                         <p>Interaktywna tablica Kanban z przeciąganiem i upuszczaniem, filtrowaniem i raportami.</p>
                         <div class="project-tech">
-                            <span>React</span>
-                            <span>TypeScript</span>
-                            <span>DnD Kit</span>
-                            <span>Tailwind</span>
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>Tailwind CSS</span>
+                            <span>Alpine JS</span>
                         </div>
                     </div>
                 </div>
@@ -534,61 +704,229 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023 - obecnie</div>
+                    <div class="timeline-date">2018.04 - obecnie</div>
                     <div class="timeline-content">
-                        <h3>Frontend Developer</h3>
-                        <h4>TechCorp Sp. z o.o. Warszawa</h4>
+                        <h3>Fibris S.A. Przemyśl</h3>
+                        <h4>Specjalista IT, Programista, Projektant grafiki, Inspektor Ochrony Danych</h4>
                         <p>
-                            Tworzenie i utrzymanie aplikacji webowych w React i TypeScript. 
-                            Współpraca z zespołem UX/UI, optymalizacja wydajności i wprowadzanie 
-                            testów jednostkowych. Udział w code review i mentorowanie młodszych developerów.
+                            - Modernizacja i rozwój firmowych stron WWW, platformy e-learningowej, modernizacja i serwis baz danych MySQL<br />
+                            - Projektowanie grafiik, materiałów promocyjnych, skład DTP, współpraca z drukarniami<br />
+                            - Zarządzanie firmową siecią komputerową - ponad sto stacji roboczych - UTM Fortinet<br />
+                            - Zarządzanie serwerami - Windows Server, Linux Server, Synology NAS <br />
+                            - Wsparcie techniczne użytkowników systemów IT <br />
+                            - Zarządzanie i serwis monitoringu wizyjnego - system HikVision <br />
+                            - Zarządzanie usługami Office365, Microsoft Azure, Bitdefender Gravity Zone, eAuditor<br />
+                            - Konfiguracja i serwis sprzętu IT<br />
+                            - Monitorowanie zgodności, szkolenia, doradztwo, zarządzanie dokumentacją związaną z wypełnianiem obowiązków administratora danych osobowych zgodnie z obowiązującym prawem na stanowisku IOD<br />
+                            - Zarządzanie systemem i wsparcie użytkowników systemu Macrologic ERP<br />
+                            - Negocjowanie i zawieranie umów usług telekomunikacyjnych i teleinformatycznych<br />
                         </p>
                         <div class="timeline-tech">
-                            <span>React</span>
-                            <span>TypeScript</span>
-                            <span>Jest</span>
-                            <span>GitLab</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>Junior Full Stack Developer</h3>
-                        <h4>WebSolutions Agency</h4>
-                        <p>
-                            Tworzenie stron i aplikacji internetowych dla klientów z różnych branż. 
-                            Praca w technologiach PHP/Laravel oraz Vue.js. Zarządzanie bazami danych MySQL 
-                            i wdrożenia na serwerach produkcyjnych.
-                        </p>
-                        <div class="timeline-tech">
-                            <span>PHP</span>
+                            <span>Fortinet</span>
+                            <span>Office365</span>
+                            <span>Windows Server</span>
+                            <span>Linux Server</span>
+                            <span>Synology</span>
+                            <span>Bitdefender</span>
+                            <span>Biosys</span>
+                            <span>eAuditor</span>
+                            <span>MS SQL</span>
+                            <span>Azure</span>
+                            <span>Adobe Photoshop</span>
+                            <span>Corel DRAW</span>
                             <span>Laravel</span>
-                            <span>Vue.js</span>
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
                             <span>MySQL</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2020 - 2021</div>
-                    <div class="timeline-content">
-                        <h3>Stażysta Frontend Developer</h3>
-                        <h4>StartApp.io</h4>
-                        <p>
-                            Staż w startupie technologicznym, gdzie zajmowałem się implementacją 
-                            komponentów UI w React oraz integracją z REST API. Nauka pracy w Scrum i 
-                            z systemem kontroli wersji Git.
-                        </p>
-                        <div class="timeline-tech">
-                            <span>React</span>
-                            <span>JavaScript</span>
-                            <span>SCSS</span>
                             <span>Git</span>
                         </div>
                     </div>
                 </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023.04 - 2026.05</div>
+                    <div class="timeline-content">
+                        <h3>Ortus Perfect Cleaning Sp. z o.o. Przemyśl</h3>
+                        <h4>Specjalista IT, Webdesigner, Projektant grafiki</h4>
+                        <p>
+                            - Tworzenie, modernizacja i rozwój firmowych stron WWW<br />
+                            - Projektowanie grafiik, materiałów promocyjnych, skład DTP, współpraca z drukarniami<br />
+                            - Zarządzanie firmową siecią komputerową<br />
+                            - Wsparcie techniczne użytkowników systemów IT <br />
+                            - Zarządzanie i serwis monitoringu wizyjnego - system HikVision <br />
+                            - Wdrażanie i zarządzanie nowymi projektami <br />
+                            - Konfiguracja i serwis sprzętu IT
+                        </p>
+                        <div class="timeline-tech">
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                            <span>Git</span>
+                            <span>Adobe Photoshop</span>
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019.04 - 2026.05</div>
+                    <div class="timeline-content">
+                        <h3>Apartamenty Tatarska 4</h3>
+                        <h4>Programista, Webdesigner, Projektant grafiki</h4>
+                        <p>
+                            - Tworzenie, modernizacja i rozwój firmowych stron WWW i systemów sprzedażowych<br />
+                            - Integracja z zewnętrznymi systemami sprzedaży<br />
+                            - Projektowanie grafik, skład DTP, współpraca z drukarniami<br />
+                            - Projektowanie spójnych identyfikacji wizualnych <br />
+                            - Wdrażanie i zarządzanie projektami<br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                            <span>Git</span>
+                            <span>Adobe Photoshop</span>
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2009.03 - 2018.03</div>
+                    <div class="timeline-content">
+                        <h3>Aurora</h3>
+                        <h4>Programista, Webdesigner, Projektant grafiki</h4>
+                        <p>
+                            Rozwój:<br />
+                            - Systemów CMS<br />
+                            - Systemów e-Comerce (KQS.store, Sote Shop)<br />
+                            - Serwisów społecznościowych<br />
+                            - Rozwiązań wsparcia sprzedaży B2B i B2C<br />
+                            - REST API dla systemów e-Comerce<br />
+                            Odpowiedzialność za:<br />
+                            - Back-end i Front-end seriwsów WWW<br />
+                            - Samodzielne prowadzenie projektów dla klientów zewnętrznych<br />
+                            - Utworzenie i rozwój ponad 50 różnych projektów WWW<br />
+                            Projektowanie grafiki:<br />
+                            - Outdoor, Poligrafia, skład DTP<br />
+                            - Projektowanie opakowań produktowych<br />
+                            - Projektowanie znaków graficznych, logo, logo produktowego.<br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                            <span>Adobe Photoshop</span>
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>          
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2006.10 - 2016.01</div>
+                    <div class="timeline-content">
+                        <h3>Cybernet Webfabryka</h3>
+                        <h4>Programista, Webdesigner, Projektant grafiki</h4>
+                        <p>
+                            Rozwój:<br />
+                            - Systemów CMS<br />
+                            - Systemów e-Comerce (QuickCMS, KQS.store, Sote Shop)<br />
+                            - Rozwiązań wsparcia sprzedaży B2B i B2C<br />
+                            Odpowiedzialność za:<br />
+                            - Back-end i Front-end seriwsów WWW<br />
+                            - Samodzielne prowadzenie projektów dla klientów zewnętrznych<br />
+                            - Utworzenie i rozwój ponad 25 różnych projektów WWW<br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                            <span>Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>   
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2013.06 - 2015.08</div>
+                    <div class="timeline-content">
+                        <h3>Kolorowe Media</h3>
+                        <h4>Programista, Projektant stron WWW</h4>
+                        <p>
+                            - Rozwój i modernizacja portalu www.miastodzieci.pl<br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                        </div>
+                    </div>
+                </div>  
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2011.06 - 2014.03</div>
+                    <div class="timeline-content">
+                        <h3>ETCOM</h3>
+                        <h4>Programista, Projektant stron WWW</h4>
+                        <p>
+                            - Tworzenie stron WWW w oparciu o autorski system CMS<br />
+                            - Projektowanie szablonów stron WWW<br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>                                  
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2007.10 - 2010.05</div>
+                    <div class="timeline-content">
+                        <h3>Sitta - Agencja Interaktywna</h3>
+                        <h4>Programista, Projektant stron WWW, Projektant grafiki</h4>
+                        <p>
+                            - Tworzenie stron WWW w oparciu o autorski system CMS<br />
+                            - Tworzenie aplikacji B2B, B2C<br />
+                            - Rozwój autorskiego systemu mailingowego<br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                            <span>Adobe Photoshop</span>
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>                    
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2005.10 - 2007.09</div>
+                    <div class="timeline-content">
+                        <h3>Artcreo</h3>
+                        <h4>Projektant grafiki, Webdesigner</h4>
+                        <p>
+                            - Tworzenie stron WWW w oparciu o autorski system CMS<br />
+                            - Projektowanie szablonów stron WWW<br />
+                            - Projektowanie grafiki, outdoor, poligrafia, skład DTP <br />
+                        </p>
+                        <div class="timeline-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Smarty</span>
+                            <span>MySQL</span>
+                            <span>Adobe Photoshop</span>
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>                                    
             </div>
         </div>
     </section>
@@ -606,29 +944,29 @@
                     <div class="edu-icon">
                         <i class="fas fa-university"></i>
                     </div>
-                    <div class="edu-year">2018 - 2022</div>
-                    <h3>Politechnika Warszawska</h3>
-                    <h4>Kierunek: Informatyka</h4>
-                    <p>Specjalizacja: Inżynieria oprogramowania. Praca dyplomowa: "Optymalizacja wydajności aplikacji React z użyciem Web Workers" (ocena: 5.0).</p>
+                    <div class="edu-year">2001 - 2006</div>
+                    <h3>WSIiZ w Rzeszowie</h3>
+                    <h4>Kierunek: Informatyka i zarządzanie</h4>
+                    <p>Specjalizacja: Sieci i systemy komputerowe Praca dyplomowa: "Wirtualny sekretariat szkolny - aplikacja web."</p>
                 </div>
                 <div class="edu-card">
                     <div class="edu-icon">
-                        <i class="fas fa-certificate"></i>
+                        <i class="fas fa-network-wired"></i>
                     </div>
-                    <div class="edu-year">2023</div>
-                    <h3>Certyfikat AWS</h3>
-                    <h4>AWS Certified Developer - Associate</h4>
-                    <p>Certyfikat potwierdzający umiejętność projektowania i wdrażania aplikacji w chmurze AWS.</p>
-                </div>
-                <div class="edu-card">
-                    <div class="edu-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="edu-year">2024</div>
-                    <h3>Certyfikat Meta</h3>
-                    <h4>Meta Front-End Developer</h4>
+                    <div class="edu-year">2005</div>
+                    <h3>Certyfikat CISCO</h3>
+                    <h4>CCNA/CCNP</h4>
                     <p>Profesjonalny certyfikat z zakresu nowoczesnego front-end developmentu z React.</p>
                 </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <div class="edu-year">2023</div>
+                    <h3>Stowarzyszenie Księgowych w Polsce</h3>
+                    <h4>Księgowy I stopnia</h4>
+                    <p>Certyfikat potwierdzający umiejętność projektowania i wdrażania aplikacji w chmurze AWS.</p>
+                </div>                
             </div>
         </div>
     </section>
@@ -638,17 +976,17 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item">
-                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-number" data-target="20">0</span>
                     <span class="stat-plus">+</span>
                     <span class="stat-label">Lata doświadczenia</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number" data-target="20">0</span>
+                    <span class="stat-number" data-target="100">0</span>
                     <span class="stat-plus">+</span>
                     <span class="stat-label">Zrealizowanych projektów</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-number" data-target="100">0</span>
                     <span class="stat-plus">+</span>
                     <span class="stat-label">Zadowolonych klientów</span>
                 </div>
@@ -678,35 +1016,35 @@
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <span class="contact-label">Email</span>
-                                <a href="mailto:kontakt@example.com">kontakt@example.com</a>
+                                <a href="mailto:pawelstempak@gmail.com">pawelstempak@gmail.com</a>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
                             <div>
                                 <span class="contact-label">Telefon</span>
-                                <a href="tel:+48123456789">+48 123 456 789</a>
+                                <a href="tel:+48123456789">+48 665 979 997</a>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <span class="contact-label">Lokalizacja</span>
-                                <span>Warszawa / 100% zdalnie</span>
+                                <span>Przemyśl / 100% zdalnie / Hybrydowo</span>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-clock"></i>
                             <div>
                                 <span class="contact-label">Dostępność</span>
-                                <span>Natychmiastowa / 2 tyg. wypowiedzenia</span>
+                                <span>Natychmiastowa</span>
                             </div>
                         </div>
                     </div>
                     <div class="contact-socials">
-                        <a href="https://github.com/" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://stackoverflow.com/" target="_blank" class="social-link" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="https://github.com/pawelstempak" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/pawelstempak" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://stackoverflow.com/users/18213224/sandowl" target="_blank" class="social-link" aria-label="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
                     </div>
                 </div>
                 <form class="contact-form" id="contactForm">
@@ -742,9 +1080,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <span class="logo-bracket">&lt;</span>
-                    <span class="logo-name">PS</span>
-                    <span class="logo-bracket"> /&gt;</span>
+                   <span class="logo-bracket">&lt;</span><span class="logo-name">PS</span><span class="logo-bracket">/&gt;</span>
                 </div>
                 <p class="footer-text">
                     Otwarty na nowe możliwości zawodowe. 
@@ -752,7 +1088,7 @@
                 </p>
                 <div class="footer-bottom">
                     <span>&copy; 2026 Paweł Stempak. Wszelkie prawa zastrzeżone.</span>
-                    <span>Designed & Built with <i class="fas fa-heart"></i> by PS</span>
+                    <span>Designed & Built by <span class="logo-bracket">&lt;</span><span class="logo-name">PS</span><span class="logo-bracket">/&gt;</span></span>
                 </div>
             </div>
         </div>
@@ -764,20 +1100,56 @@
     </button>
 
     <!-- ====== IMAGE MODAL ====== -->
+    <div id="modal-mcluxmed" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/mcluxmed.jpeg" id="modalImage" alt="MCLUXMED - Podgląd">
+            </div>
+        </div>
+    </div>
+
     <div id="modal-tatarska" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
         <div class="modal-container">
             <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
             <div class="modal-content">
-<img src="media/tatarska4.jpeg" id="modalImage" alt="Apartamenty Tatarska 4 - Podglad">
+                <img src="media/www/tatarska4.jpeg" id="modalImage" alt="Apartamenty Tatarska 4 - Podglad">
             </div>
         </div>
     </div>
+
+    <div id="modal-osiedlenoweprzedmiescie" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/osiedlenoweprzedmiescie.jpeg" id="modalImage" alt="Osiedle Nowe Przedmiescie - Podglad">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-nasofie" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/nasofie.jpeg" id="modalImage" alt="Nasofie.pl - Podglad">
+            </div>
+        </div>
+    </div>    
+
+    <div id="modal-tatarska-developer" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/tatarska_developer.jpeg" id="modalImage" alt="Tatarska Developer - Podglad">
+            </div>
+        </div>
+    </div>    
 
     <div id="modal-safironutrition" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
         <div class="modal-container">
             <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
             <div class="modal-content">
-<img src="media/safironutrition.jpeg" id="modalImage" alt="Safironutrition.com - Podgląd">
+                <img src="media/www/safironutrition.jpeg" id="modalImage" alt="Safironutrition.com - Podgląd">
             </div>
         </div>
     </div>    

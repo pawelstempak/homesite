@@ -17,7 +17,8 @@
     --accent-hover: #5a52d5; 
     --accent-light: rgba(108, 99, 255, 0.1); 
     --accent-glow: rgba(108, 99, 255, 0.3); 
-    --border-color: #e2e8f0; 
+    --border-color: #e2e8f0;
+    --border-color-hover: #434363;
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06); 
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08); 
     --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.1); 
@@ -54,7 +55,8 @@
     --accent-hover: #911212; 
     --accent-light: #600303;
     --accent-glow: #b30000;
-    --border-color: #2a2a45; 
+    --border-color: #2a2a45;
+    --border-color-hover: #6d6da0;  
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2); 
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.3); 
     --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.4); 
@@ -661,9 +663,9 @@ img {
 } 
  
 .about-card:hover { 
-    transform: translateY(-5px); 
     box-shadow: var(--shadow-lg); 
-    border-color: var(--accent-light); 
+    /* border-color: var(--border-color-hover);  
+    transform: translateY(-5px) !important; */
 } 
  
 .about-icon { 
@@ -707,8 +709,8 @@ img {
 } 
  
 .skill-category:hover { 
-    box-shadow: var(--shadow-md); 
-    border-color: var(--accent); 
+    /* box-shadow: var(--shadow-md); 
+    border-color: var(--accent); */
 } 
  
 .category-header { 
@@ -876,9 +878,9 @@ img {
 } 
  
 .project-card:hover { 
-    transform: translateY(-5px); 
+    transform: translateY(-5px) !important; 
     box-shadow: var(--shadow-lg); 
-    border-color: var(--accent); 
+    border-color: var(--border-color-hover); 
 } 
  
 .project-img { 
@@ -1029,8 +1031,8 @@ img {
 .timeline-date { 
     display: inline-block; 
     font-size: 0.8rem; 
-    font-weight: 600; 
-    color: var(--accent); 
+    font-weight: 400; 
+    color: var(--text-primary); 
     background: var(--accent-light); 
     padding: 0.3rem 0.8rem; 
     border-radius: 6px; 
@@ -1116,23 +1118,24 @@ img {
 .edu-icon { 
     width: 64px; 
     height: 64px; 
-    background: var(--accent-light); 
+    /* background: var(--accent); */
     border-radius: 50%; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
     margin: 0 auto 1rem; 
     font-size: 1.5rem; 
-    color: var(--accent); 
+    color: var(--text-primary); 
 } 
  
 .edu-year { 
     display: inline-block; 
     font-size: 0.8rem; 
-    font-weight: 600; 
-    color: var(--accent); 
-    background: var(--accent-light); 
+    font-weight: 400; 
+    color: var(--text-primary);
+    /* background: var(--accent); */ 
     padding: 0.3rem 0.8rem; 
+    border: 1px solid var(--text-primary);
     border-radius: 6px; 
     margin-bottom: 0.75rem; 
     font-family: 'Fira Code', monospace; 
@@ -1542,7 +1545,7 @@ img {
     } 
 } 
  
-/* Ma³e telefony */ 
+/* Maï¿½e telefony */ 
 @media (max-width: 480px) { 
     .hero-buttons { 
         flex-direction: column; 
