@@ -1,6 +1,6 @@
-﻿/* ============================================ 
+/* ============================================ 
    PORTFOLIO DEVELOPER IT - JavaScript 
-   Author: Paweł Stempak 
+   Author: Pawe� Stempak 
    ============================================ */ 
 
 // ====== PRELOADER ====== 
@@ -114,7 +114,7 @@ function initTypingEffect() {
     
     const roles = [ 
         'Full Stack Developerem', 
-        'Specjalistą IT',
+        'Specjalist� IT',
         'Grafikiem'
     ]; 
     
@@ -275,19 +275,19 @@ function initContactForm() {
         const message = document.getElementById('message').value.trim(); 
         
         if (!name || !email || !message) { 
-            alert('Proszę wypełnić wszystkie wymagane pola.'); 
+            alert('Prosz� wype�ni� wszystkie wymagane pola.'); 
             return; 
         } 
         
         const submitBtn = form.querySelector('button[type=submit]'); 
         const originalText = submitBtn.innerHTML; 
         
-        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysyłanie...'; 
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysy�anie...'; 
         submitBtn.disabled = true; 
         
         // Simulate sending 
         setTimeout(function() { 
-            submitBtn.innerHTML = '<i class="fas fa-check"></i> Wysłano!'; 
+            submitBtn.innerHTML = '<i class="fas fa-check"></i> Wys�ano!'; 
             submitBtn.style.background = '#22c55e'; 
             
             setTimeout(function() { 
@@ -303,8 +303,10 @@ function initContactForm() {
 initContactForm(); 
 
 // ====== SMOOTH SCROLL FOR ANCHOR LINKS ====== 
-document.querySelectorAll('a[href^=#]').forEach(function(anchor) { 
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) { 
     anchor.addEventListener('click', function(e) { 
+        // Skip modal triggers
+        if (anchor.classList.contains('modal-trigger')) return;
         const targetId = this.getAttribute('href'); 
         if (targetId === '#') return; 
         
@@ -361,3 +363,14 @@ document.addEventListener('keydown', function(e) {
         hamburger.click(); 
     } 
 }); 
+
+// ====== IMAGE MODAL - CLOSE ON ESCAPE ======
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        var overlays = document.querySelectorAll('.modal-overlay.active');
+        for (var i = 0; i < overlays.length; i++) {
+            overlays[i].classList.remove('active');
+            document.body.classList.remove('modal-open');
+        }
+    }
+});

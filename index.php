@@ -368,11 +368,11 @@
                 <div class="project-card" data-category="www">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <img src="media/tatarska.jpeg">
+                            <img src="media/tatarska4.jpeg" id="modalImage" alt="Apartamenty Tatarska 4 - Podgląd">
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" target="_blank"><i class="fas fa-eye"></i></a>
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-tatarska').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
                                 <a href="https://apartamenty-tatarska4.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
@@ -389,20 +389,20 @@
                     </div>
                 </div>
                 <!-- Project 2 -->
-                <div class="project-card" data-category="frontend">
+                <div class="project-card" data-category="www">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <i class="fas fa-calendar-alt"></i>
+                            <img src="media/safironutrition.jpeg" id="modalImage" alt="Safironutrition.com - Podgląd">
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-safironutrition').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://safironutrition.com" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Frontend</span>
+                        <span class="project-category">Strona WWW</span>
                         <h3>Aplikacja do zarządzania zadaniami</h3>
                         <p>Interaktywna tablica Kanban z przeciąganiem i upuszczaniem, filtrowaniem i raportami.</p>
                         <div class="project-tech">
@@ -763,6 +763,32 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <!-- ====== IMAGE MODAL ====== -->
+    <div id="modal-tatarska" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+<img src="media/tatarska4.jpeg" id="modalImage" alt="Apartamenty Tatarska 4 - Podglad">
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-safironutrition" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+<img src="media/safironutrition.jpeg" id="modalImage" alt="Safironutrition.com - Podgląd">
+            </div>
+        </div>
+    </div>    
+
     <script src="js/main.js"></script>
+
+
 </body>
 </html>
+
+
+
+
+
