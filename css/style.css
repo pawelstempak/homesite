@@ -1550,6 +1550,10 @@ img {
         width: 44px; 
         height: 44px; 
     } 
+    
+    .hero-scroll-indicator {
+        display: none;
+    }
 } 
  
 /* Małe telefony */ 

@@ -1,7 +1,9 @@
-<?php
+﻿<?php
 /**
  * Klasa Mailer - wysylanie e-maili przez SMTP
  */
+
+require_once __DIR__ . '/../Config.php';
 
 class Mailer {
     private $smtpHost;
@@ -14,14 +16,14 @@ class Mailer {
     private $encryption;
 
     public function __construct() {
-        $this->smtpHost   = 'h39.seohost.pl';
-        $this->smtpPort   = 465;
-        $this->smtpUser   = 'formularz@pawelstempak.pl';
-        $this->smtpPass   = 'Ohn3phae123#ttjgd';
-        $this->encryption = 'ssl';
-        $this->fromEmail = 'formularz@pawelstempak.pl';
-        $this->fromName  = 'Portfolio - Pawel Stempak';
-        $this->toEmail   = 'pawelstempak@gmail.com';
+        $this->smtpHost   = Config::$smtpHost;
+        $this->smtpPort   = Config::$smtpPort;
+        $this->smtpUser   = Config::$smtpUser;
+        $this->smtpPass   = Config::$smtpPass;
+        $this->encryption = Config::$encryption;
+        $this->fromEmail  = Config::$fromEmail;
+        $this->fromName   = Config::$fromName;
+        $this->toEmail    = Config::$toEmail;
     }
 
     public function send($from, $sender, $subject, $message) {
@@ -56,12 +58,12 @@ class Mailer {
             $this->smtpCommand($socket, "DATA");
 
             $body = $this->buildHtmlBody($sender, $from, $subject, $message);
-            $headers = "MIME-Version: 1.0\r\n"
-                . "Content-Type: text/html; charset=UTF-8\r\n"
-                . "From: {$this->fromName} <{$this->fromEmail}>\r\n"
-                . "Reply-To: {$sender} <{$from}>\r\n"
-                . "To: {$this->toEmail}\r\n"
-                . "Subject: =?UTF-8?B?" . base64_encode($subject) . "?=\r\n"
+            $headers = "MIME-Version: 1.0" . "\r\n"
+                . "Content-Type: text/html; charset=UTF-8" . "\r\n"
+                . "From: {$this->fromName} <{$this->fromEmail}>" . "\r\n"
+                . "Reply-To: {$sender} <{$from}>" . "\r\n"
+                . "To: {$this->toEmail}" . "\r\n"
+                . "Subject: =?UTF-8?B?" . base64_encode($subject) . "?=" . "\r\n"
                 . "Date: " . date('r') . "\r\n";
 
             fwrite($socket, $headers . "\r\n" . $body . "\r\n.\r\n");

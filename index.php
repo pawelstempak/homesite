@@ -387,6 +387,28 @@
                         </div>
                     </div>
                 </div>
+                <!-- Project LOGO ZGK JELCZ LASKOWICE -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/zgk_jelcz_laskowice.jpg" id="modalImage" alt="Logo Osiedle Tarnopolska">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://zgk-jelcz.pl/" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>ZGK Jelcz Laskowice</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Corel DRAW</span>
+                            <span>Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project WWW TATARSKA4 -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
@@ -557,6 +579,27 @@
                             <span>Corel DRAW</span>
                         </div>
                     </div>
+                </div>
+                <!-- Project LOGO MARIKO SAKURI -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/mariko_sakuri.jpg" id="modalImage" alt="Logo Mariko Sakuri">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.google.com/search?q=Mariko+Sakuri" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>Marka prouktowa Mariko Sakuri</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
                 </div>                                              
                 <!-- Project WWW SAFIRONUTRITION -->
                 <div class="project-card" data-category="www">
@@ -583,103 +626,56 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project 3 -->
-                <div class="project-card" data-category="api">
+                <!-- Project LOGO TARNOPOLSKA -->
+                <div class="project-card" data-category="logo">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <i class="fas fa-cloud"></i>
+                            <img src="media/logo/tarnopolska.jpg" id="modalImage" alt="Logo Osiedle Tarnopolska">
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="media/logo/kz_tarnopolska.pdf" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">API</span>
-                        <h3>System zarządzania treścią (CMS)</h3>
-                        <p>REST API dla systemu CMS z autoryzacją JWT, rolami użytkowników i dokumentacją Swagger.</p>
+                        <span class="project-category">Logo</span>
+                        <h3>Tarnopolska Park</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
                         <div class="project-tech">
-                            <span>Node.js</span>
-                            <span>Express</span>
-                            <span>PostgreSQL</span>
-                            <span>Swagger</span>
+                            <span>Corel DRAW</span>
                         </div>
                     </div>
-                </div>
-                <!-- Project 4 -->
-                <div class="project-card" data-category="fullstack">
+                </div> 
+                <!-- Project LOGO ARTCREO -->
+                <div class="project-card" data-category="logo">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <i class="fas fa-comments"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
+                            <img src="media/logo/artcreo.jpg" id="modalImage" alt="Logo Osiedle Tarnopolska">
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Full Stack</span>
-                        <h3>Czat na żywo z WebSocket</h3>
-                        <p>Aplikacja do komunikacji w czasie rzeczywistym z obsługą kanałów, emoji i załączników.</p>
+                        <span class="project-category">Logo</span>
+                        <h3>Artcreo Pracownia reklamy</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
                         <div class="project-tech">
-                            <span>React</span>
-                            <span>Socket.io</span>
-                            <span>Node.js</span>
-                            <span>Redis</span>
+                            <span>Corel DRAW</span>
                         </div>
                     </div>
-                </div>
-                <!-- Project 5 -->
-                <div class="project-card" data-category="frontend">
+                </div> 
+                <!-- Project LOGO KAMELEON -->
+                <div class="project-card" data-category="logo">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
+                            <img src="media/logo/kameleon.jpg" id="modalImage" alt="Logo Osiedle Tarnopolska">
                         </div>
                     </div>
                     <div class="project-info">
-                        <span class="project-category">Frontend</span>
-                        <h3>Dashboard analityczny</h3>
-                        <p>Panel z wykresami, tabelami i filtrami do wizualizacji danych biznesowych w czasie rzeczywistym.</p>
+                        <span class="project-category">Logo</span>
+                        <h3>Kameleon pracownia reklamy</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
                         <div class="project-tech">
-                            <span>React</span>
-                            <span>Chart.js</span>
-                            <span>SCSS</span>
-                            <span>REST</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 6 -->
-                <div class="project-card" data-category="api">
-                    <div class="project-img">
-                        <div class="project-img-placeholder">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <span class="project-category">API</span>
-                        <h3>Web Scraper z API</h3>
-                        <p>Narzędzie do ekstrakcji danych ze stron internetowych z REST API i harmonogramem zadań.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>FastAPI</span>
-                            <span>BeautifulSoup</span>
-                            <span>Docker</span>
+                            <span>Corel DRAW</span>
                         </div>
                     </div>
                 </div>
