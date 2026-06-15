@@ -1580,6 +1580,10 @@ img {
     .contact-form { 
         padding: 1.5rem; 
     } 
+
+    .hero-scroll-indicator {
+        display: none;
+    }
 } 
  
 /* ====== REDUCED MOTION ====== */ 
