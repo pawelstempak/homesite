@@ -29,7 +29,7 @@
                 <span class="logo-bracket"> /&gt;</span>
             </a>
             <ul class="nav-menu" id="navMenu">
-                <li class="nav-item"><a href="#hero" class="nav-link active">Start</a></li>
+                <li class="nav-item start"><a href="#hero" class="nav-link active">Start</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">O mnie</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Umiejętności</a></li>
                 <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
@@ -684,12 +684,12 @@
                     </div>
                 </div>
             </div>
-            <div class="projects-cta">
+            <!-- <div class="projects-cta">
                 <a href="https://github.com/" target="_blank" class="btn btn-primary">
                     <i class="fab fa-github"></i>
                     Zobacz więcej na GitHub
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
 

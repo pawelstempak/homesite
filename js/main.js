@@ -1,6 +1,6 @@
 /* ============================================ 
    PORTFOLIO DEVELOPER IT - JavaScript 
-   Author: Pawe� Stempak 
+   Author: PaweŁ Stempak 
    ============================================ */ 
 
 // ====== PRELOADER ====== 
@@ -114,7 +114,7 @@ function initTypingEffect() {
     
     const roles = [ 
         'Full Stack Developerem', 
-        'Specjalist� IT',
+        'Specjalistą IT',
         'Grafikiem'
     ]; 
     
@@ -264,64 +264,70 @@ initBackToTop();
 
 // ====== CONTACT FORM ====== 
 function initContactForm() { 
-    const form = document.getElementById('contactForm'); 
+    console.log('initContactForm called');
+    const form = document.getElementById('contactForm');
     if (!form) return; 
     
-    form.addEventListener('submit', function(e) { 
-        e.preventDefault(); 
-        
-        const name = document.getElementById('name').value.trim(); 
-        const email = document.getElementById('email').value.trim(); 
-        const message = document.getElementById('message').value.trim(); 
-        
-        if (!name || !email || !message) { 
-            alert('Proszę wypełnić wszystkie wymagane pola.'); 
-            return; 
-        } 
-        
-        const submitBtn = form.querySelector('button[type=submit]'); 
-        const originalText = submitBtn.innerHTML; 
-        
-        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysyłanie...'; 
-        submitBtn.disabled = true; 
-        
-        // Simulate sending 
-        setTimeout(function() { 
-            submitBtn.innerHTML = '<i class="fas fa-check"></i> Wysłano!'; 
-            submitBtn.style.background = '#22c55e'; 
-            
-            setTimeout(function() { 
-                submitBtn.innerHTML = originalText; 
-                submitBtn.style.background = ''; 
-                submitBtn.disabled = false; 
-                form.reset(); 
-            }, 3000); 
-        }, 1500); 
-    }); 
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const subject = document.getElementById('subject').value.trim();
+        const message = document.getElementById('message').value.trim();
+
+        if (!name || !email || !message) {
+            alert('Proszę wypełnić wszystkie wymagane pola.');
+            return;
+        }
+
+        const submitBtn = form.querySelector('button[type=submit]');
+        const originalText = submitBtn.innerHTML;
+        const originalBg = submitBtn.style.background;
+
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wysyłanie...';
+        submitBtn.disabled = true;
+
+        const formData = new FormData();
+        formData.append('name', name);
+        formData.append('email', email);
+        formData.append('subject', subject);
+        formData.append('message', message);
+
+        fetch('send-mail.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(function(response) { return response.json(); })
+        .then(function(data) {
+            if (data.success) {
+                submitBtn.innerHTML = '<i class="fas fa-check"></i> Wysłano!';
+                submitBtn.style.background = '#22c55e';
+                form.reset();
+            } else {
+                submitBtn.innerHTML = '<i class="fas fa-times"></i> Błąd';
+                submitBtn.style.background = '#ef4444';
+                alert(data.message || 'Błąd podczas wysyłania. Spróbuj ponownie.');
+            }
+        })
+        .catch(function() {
+            submitBtn.innerHTML = '<i class="fas fa-times"></i> Błąd';
+            submitBtn.style.background = '#ef4444';
+            alert('Błąd połączenia. Spróbuj ponownie.');
+        })
+        .finally(function() {
+            setTimeout(function() {
+                submitBtn.innerHTML = originalText;
+                submitBtn.style.background = originalBg;
+                submitBtn.disabled = false;
+            }, 3000);
+        });
+    });
+
 } 
 
 initContactForm(); 
 
-// ====== SMOOTH SCROLL FOR ANCHOR LINKS ====== 
-document.querySelectorAll('a[href^="#"]').forEach(function(anchor) { 
-    anchor.addEventListener('click', function(e) { 
-        // Skip modal triggers
-        if (anchor.classList.contains('modal-trigger')) return;
-        const targetId = this.getAttribute('href'); 
-        if (targetId === '#') return; 
-        
-        const targetElement = document.querySelector(targetId); 
-        if (targetElement) { 
-            e.preventDefault(); 
-            targetElement.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'start' 
-            }); 
-        } 
-    }); 
-}); 
-
-// ====== SCROLL REVEAL ANIMATIONS ====== 
 function initScrollReveal() { 
     const elements = document.querySelectorAll( 
         '.about-card, .skill-category, .project-card, .timeline-item, .edu-card, .stat-item' 
@@ -374,3 +380,7 @@ document.addEventListener('keydown', function(e) {
         }
     }
 });
+
+
+
+

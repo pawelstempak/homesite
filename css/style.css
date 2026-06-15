@@ -429,13 +429,13 @@ img {
 .btn-primary { 
     background: var(--accent); 
     color: #ffffff; 
-    box-shadow: 0 4px 15px var(--accent-glow); 
+    
 } 
  
 .btn-primary:hover { 
     background: var(--accent-hover); 
     transform: translateY(-2px); 
-    box-shadow: 0 8px 25px var(--accent-glow); 
+     
 } 
  
 .btn-outline { 
@@ -1246,7 +1246,7 @@ img {
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    color: var(--accent); 
+    color: var(--text-primary); 
     font-size: 1.1rem; 
     flex-shrink: 0; 
 } 
@@ -1418,6 +1418,10 @@ img {
         font-size: 2.5rem; 
     } 
  
+    .start {
+        display: none;
+    }
+
     .hero-container, 
     .contact-grid { 
         grid-template-columns: 1fr; 
@@ -1428,12 +1432,15 @@ img {
         order: -1; 
     } 
  
-    .skills-categories, 
-    .about-grid, 
-    .projects-grid, 
-    .education-grid { 
+    .projects-grid{ 
         grid-template-columns: repeat(2, 1fr); 
     } 
+
+    .skills-categories, 
+    .about-grid, 
+    .education-grid { 
+        grid-template-columns: 1fr; 
+    }     
  
     .stats-grid { 
         grid-template-columns: repeat(2, 1fr); 
@@ -1545,7 +1552,7 @@ img {
     } 
 } 
  
-/* Ma�e telefony */ 
+/* Małe telefony */ 
 @media (max-width: 480px) { 
     .hero-buttons { 
         flex-direction: column; 
