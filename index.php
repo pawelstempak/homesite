@@ -362,6 +362,7 @@
                 <button class="filter-btn" data-filter="www">Strony WWW</button>
                 <button class="filter-btn" data-filter="logo">Logo</button>
                 <button class="filter-btn" data-filter="api">Aplikacje</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
             </div>
             <div class="projects-grid">
                 <!-- Project WWW MCLUXMED -->
@@ -846,6 +847,97 @@
                         <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project SHOP SKLEP.ORTUSPRALNIA.PL -->
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/sklep/sklep.ortuspralnia.jpeg" id="modalImage" alt="Sklep Ortuspralnia - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-skleportuspralniapl').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://sklep.ortuspralnia.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Sklep internetowy</span>
+                        <h3>Sklep Ortuspralnia</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>SOTE Shop</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project SHOP AURORA-LABS.PL -->
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/sklep/aurora-labs.jpeg" id="modalImage" alt="Sklep Aurora-labs.pl - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-aurora-labs').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://aurora-labs.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Sklep internetowy</span>
+                        <h3>Sklep Aurora-labs.pl</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Octopus CMS</span>
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project SHOP PERFUMY-AURORA.PL -->
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/sklep/perfumy-aurora.jpeg" id="modalImage" alt="Sklep Perfumy-Aurora.pl - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-perfumy-aurora').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://perfumy-aurora.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Sklep internetowy</span>
+                        <h3>Sklep Perfumy-Aurora.pl</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>SOTE Shop</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project SHOP AURORA-COSMETICS.PL -->
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/sklep/aurora-cosmetics.jpeg" id="modalImage" alt="Sklep Aurora-Cosmetics.pl - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-aurora-cosmetics').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://aurora-cosmetics.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Sklep internetowy</span>
+                        <h3>Sklep Aurora-Cosmetics.pl</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>SOTE Shop</span>
                         </div>
                     </div>
                 </div>
@@ -1370,6 +1462,42 @@
             <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
             <div class="modal-content">
                 <img src="media/www/timmspawtech.jpeg" id="modalImage" alt="Timm SpawTech - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+    <div id="modal-skleportuspralniapl" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/sklep/sklep.ortuspralnia.jpeg" id="modalImage" alt="Sklep Ortuspralnia - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+    <div id="modal-aurora-labs" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/sklep/aurora-labs.jpeg" id="modalImage" alt="Sklep Aurora-labs.pl - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+    <div id="modal-perfumy-aurora" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/sklep/perfumy-aurora.jpeg" id="modalImage" alt="Sklep Perfumy-Aurora.pl - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+    <div id="modal-aurora-cosmetics" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/sklep/aurora-cosmetics.jpeg" id="modalImage" alt="Sklep Aurora-Cosmetics.pl - Podgląd">
             </div>
         </div>
     </div> 
