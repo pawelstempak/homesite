@@ -664,6 +664,22 @@
                         </div>
                     </div>
                 </div>    
+                <!-- Project LOGO OCTOPUS CMS -->
+                <div class="project-card" data-category="logo">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/logo/octopuscms.jpg" id="modalImage" alt="Logo Octopus CMS">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logo</span>
+                        <h3>Octopus CMS</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Corel DRAW</span>
+                        </div>
+                    </div>
+                </div>  
                 <!-- Project API E-LEARNING PANEL -->
                 <div class="project-card" data-category="api">
                     <div class="project-img">
