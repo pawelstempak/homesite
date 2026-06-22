@@ -459,6 +459,31 @@
                         </div>
                     </div>
                 </div>
+                <!-- Project WWW TIMMSPAWTECH -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/timmspawtech.jpeg" id="modalImage" alt="Timm SpawTech - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-timmspawtech').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://timmspawtech.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Apartamenty Tatarska 4</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Octopus CMS</span>
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project WWW TATARSKA4 -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
@@ -1331,11 +1356,20 @@
         </div>
     </div> 
 
-        <div id="modal-maluch" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+    <div id="modal-maluch" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
         <div class="modal-container">
             <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
             <div class="modal-content">
                 <img src="media/www/rehabilitacjadziecimaluch.jpeg" id="modalImage" alt="Rehabilitacja Dzieci Maluch - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+    <div id="modal-timmspawtech" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/timmspawtech.jpeg" id="modalImage" alt="Timm SpawTech - Podgląd">
             </div>
         </div>
     </div> 
