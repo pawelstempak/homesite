@@ -381,6 +381,7 @@
                         <h3>Mcluxmed</h3>
                         <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
                         <div class="project-tech">
+                            <span>Octopus CMS</span>
                             <span>PHP</span>
                             <span>JQuery</span>
                             <span>Smarty</span>
@@ -570,7 +571,32 @@
                             <span>Corel DRAW</span>
                         </div>
                     </div>
-                </div>                 
+                </div>          
+                <!-- Project WWW MALUCH -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/rehabilitacjadziecimaluch.jpeg" id="modalImage" alt="Rehabilitacja Dziecici Maluch - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-maluch').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://rehabilitacjadzieci-maluch.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Rehabilitacja Dzieci Maluch</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>Octopus CMS</span>
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
+                        </div>
+                    </div>
+                </div>      
                 <!-- Project WWW NASOFIE.PL -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
@@ -742,6 +768,30 @@
                         </div>
                     </div>
                 </div> 
+                <!-- Project WWW TARNOPOLSKA PARK -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/tarnopolska.jpeg" id="modalImage" alt="Tarnopolska.pl - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-tarnopolska').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://dev.tarnopolska.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strona WWW</span>
+                        <h3>Tarnopolska Park</h3>
+                        <p>Interaktywna tablica Kanban z przeciąganiem i upuszczaniem, filtrowaniem i raportami.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project LOGO ARTCREO -->
                 <div class="project-card" data-category="logo">
                     <div class="project-img">
@@ -1268,6 +1318,24 @@
             <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
             <div class="modal-content">
                 <img src="media/api/elearning.jpeg" id="modalImage" alt="E-LEARNING PANEL - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+    <div id="modal-tarnopolska" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/tarnopolska.jpeg" id="modalImage" alt="Tarnopolska.pl - Podgląd">
+            </div>
+        </div>
+    </div> 
+
+        <div id="modal-maluch" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/www/rehabilitacjadziecimaluch.jpeg" id="modalImage" alt="Rehabilitacja Dzieci Maluch - Podgląd">
             </div>
         </div>
     </div> 
