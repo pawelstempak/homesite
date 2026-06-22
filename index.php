@@ -387,11 +387,36 @@
                         </div>
                     </div>
                 </div>
+                <!-- Project API INVENTAPRO -->
+                <div class="project-card" data-category="api">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/api/invertapro.jpg" id="modalImage" alt="INVENTAPRO - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-inventa_pro').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Aplikacje</span>
+                        <h3>Inventa PRO</h3>
+                        <p>Nowoczesna aplikacja internetowa z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Laravel</span>
+                            <span>TailwindCSS</span>
+                            <span>FilamentPHP</span>
+                        </div>
+                    </div>
+                </div>
                 <!-- Project LOGO ZGK JELCZ LASKOWICE -->
                 <div class="project-card" data-category="logo">
                     <div class="project-img">
                         <div class="project-img-placeholder">
-                            <img src="media/logo/zgk_jelcz_laskowice.jpg" id="modalImage" alt="Logo Osiedle Tarnopolska">
+                            <img src="media/logo/zgk_jelcz_laskowice.jpg" id="modalImage" alt="Logo ZGK Jelcz Laskowice">
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
@@ -406,6 +431,30 @@
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                             <span>Adobe Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project WWW TATARSKA4 -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/kormedplus.jpeg" id="modalImage" alt="KormedPlus - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-kormedplus').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://kormedplus.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strony WWW</span>
+                        <h3>Kormed+</h3>
+                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
                         </div>
                     </div>
                 </div>
@@ -453,7 +502,30 @@
                             <span>Corel DRAW</span>
                         </div>
                     </div>
-                </div>     
+                </div>    
+                <!-- Project API OCTOPUSCMS -->
+                <div class="project-card" data-category="api">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/api/octopus_cms.jpeg" id="modalImage" alt="OCTOPUS CMS - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-octopus_cms').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Aplikacje</span>
+                        <h3>Octopus CMS</h3>
+                        <p>Nowoczesna aplikacja internetowa z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>SMarty</span>
+                        </div>
+                    </div>
+                </div> 
                 <!-- Project WWW OSIEDLE NOWE PRZEDMIESCIE -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
@@ -539,7 +611,30 @@
                             <span>Adobe Photoshop</span>
                         </div>
                     </div>
-                </div>                      
+                </div>    
+                <!-- Project API E-LEARNING PANEL -->
+                <div class="project-card" data-category="api">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/api/e-learning.jpeg" id="modalImage" alt="E-LEARNING PANEL - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-e-learning').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Aplikacje</span>
+                        <h3>E-LEARNING PANEL</h3>
+                        <p>Nowoczesna aplikacja internetowa z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JQuery</span>
+                            <span>Smarty</span>
+                        </div>
+                    </div>
+                </div>                  
                 <!-- Project WWW TATARSKA DEVELOPER -->
                 <div class="project-card" data-category="www">
                     <div class="project-img">
@@ -1149,6 +1244,33 @@
             </div>
         </div>
     </div>    
+
+    <div id="modal-inventa_pro" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/api/inventa_pro.jpeg" id="modalImage" alt="INVENTAPRO - Podgląd">
+            </div>
+        </div>
+    </div>    
+
+    <div id="modal-octopus_cms" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/api/octopuscms.jpg" id="modalImage" alt="OCTOPUS CMS - Podgląd">
+            </div>
+        </div>
+    </div>    
+
+    <div id="modal-e-learning" class="modal-overlay" onclick="if(event.target===this){this.classList.remove('active');document.body.classList.remove('modal-open');}">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Zamknij" onclick="this.closest('.modal-overlay').classList.remove('active');document.body.classList.remove('modal-open');">&times;</button>
+            <div class="modal-content">
+                <img src="media/api/elearning.jpeg" id="modalImage" alt="E-LEARNING PANEL - Podgląd">
+            </div>
+        </div>
+    </div> 
 
     <script src="js/main.js"></script>
 
