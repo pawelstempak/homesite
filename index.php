@@ -1300,7 +1300,7 @@
             <div class="contact-grid">
                 <div class="contact-info">
                     <h3>Dane kontaktowe</h3>
-                    <p>Jeśli zainteresował cię mój profil zawodowy zapraszam do kontaktu!</p>
+                    <p>Jeżeli zainteresował cię mój profil zawodowy zapraszam do kontaktu ze mną!</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
