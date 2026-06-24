@@ -1300,7 +1300,7 @@
             <div class="contact-grid">
                 <div class="contact-info">
                     <h3>Dane kontaktowe</h3>
-                    <p>Jeśli szukasz zaangażowanego developera, który dołączy do Twojego zespołu – zapraszam do kontaktu!</p>
+                    <p>Jeśli zainteresował cię mój profil zawodowy skontaktuj sie ze mną!</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
