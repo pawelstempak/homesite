@@ -1299,7 +1299,7 @@
             </div>
             <div class="contact-grid">
                 <div class="contact-info">
-                    <h3>Dane kontaktowe</h3>
+                    <h3>Kontakt</h3>
                     <p>Zapraszam do kontaktu ze mną!</p>
                     <div class="contact-details">
                         <div class="contact-item">
