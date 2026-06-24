@@ -380,7 +380,7 @@
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Mcluxmed</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Nowoczesna strona internetowa z sprzętem medycznym opartam o system CMS</p>
                         <div class="project-tech">
                             <span>Octopus CMS</span>
                             <span>PHP</span>
@@ -404,7 +404,7 @@
                     <div class="project-info">
                         <span class="project-category">Aplikacje</span>
                         <h3>Inventa PRO</h3>
-                        <p>Nowoczesna aplikacja internetowa z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>System wspomagający sprzedaż i zarządzanie magazynem produktów</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>JQuery</span>
@@ -429,7 +429,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>ZGK Jelcz Laskowice</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt logo Zakładu Gospodarki Komunalnej w Jelczu Laskowicach</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                             <span>Adobe Photoshop</span>
@@ -452,7 +452,7 @@
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Kormed+</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Strona gabinetu stomatologicznego</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>JQuery</span>
@@ -475,8 +475,8 @@
                     </div>
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
-                        <h3>Apartamenty Tatarska 4</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <h3>Timmspaw Tech</h3>
+                        <p>Firma zajmująca się metaloplastyką.</p>
                         <div class="project-tech">
                             <span>Octopus CMS</span>
                             <span>PHP</span>
@@ -501,7 +501,7 @@
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Apartamenty Tatarska 4</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt strony budowy osiedla apartamentów przy ul. Tatarskiej 4</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>JQuery</span>
@@ -524,7 +524,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Apartamenty Tatarska 4</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt logo firmy deweloperskiej Apartamenty Tatarska 4</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -545,7 +545,7 @@
                     <div class="project-info">
                         <span class="project-category">Aplikacje</span>
                         <h3>Octopus CMS</h3>
-                        <p>Nowoczesna aplikacja internetowa z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Nowoczesny system zarządzania treścią z obsługą wielu języków, szablonów wyglądu orad dodatkowych modułów.</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>JQuery</span>
@@ -562,14 +562,14 @@
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-osiedlenoweprzedmiescie').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
-                                <!--<a href="https://np.pawelstempak.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>-->
+                                <a href="https://np.pawelstempak.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Osiedle Nowe Przedmiescie</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Nowoczesna strona budowanego osiedla Nowe Przedmiescie</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>JQuery</span>
@@ -592,7 +592,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Osiedle Nowe Przedmiescie</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt logo dla osiedla Nowe Przedmiescie</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -614,7 +614,7 @@
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Rehabilitacja Dzieci Maluch</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Nowoczesna strona internetowa z systemem zarządzania treścią.</p>
                         <div class="project-tech">
                             <span>Octopus CMS</span>
                             <span>PHP</span>
@@ -639,7 +639,7 @@
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Nasofie.pl</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Blog z autorskimi recenzjami o tematayce popkulturowej.</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>Laravel</span>
@@ -658,7 +658,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Nasofie.pl</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Logo serwisu internetowego nasofie.pl</p>
                         <div class="project-tech">
                             <span>Adobe Photoshop</span>
                         </div>
@@ -674,7 +674,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Octopus CMS</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Autorski system zarządzania treścią oparty na wzorcu MVC i systemie szablonów Smarty</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -695,7 +695,8 @@
                     <div class="project-info">
                         <span class="project-category">Aplikacje</span>
                         <h3>E-LEARNING PANEL</h3>
-                        <p>Nowoczesna aplikacja internetowa z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>E-learningowa platforma do nauki zdalnej on-line oraz egazaminowania kursantów. Możliwość przygotowywania własnych kursów i testów egazminacyjnych.
+                        </p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>JQuery</span>
@@ -719,7 +720,7 @@
                     <div class="project-info">
                         <span class="project-category">Strony WWW</span>
                         <h3>Tatarska Developer</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Platforma internetowa dewelopera mieszkaniowego Tatarska Developer</p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>Tailwind CSS</span>
@@ -737,7 +738,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Tatarska Developer</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt logo dla firmy Tatarska Developer</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -758,7 +759,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Marka prouktowa Mariko Sakuri</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Logo marki produktowej Mariko Sakuri wraz z identyfikacją wizualną</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -779,13 +780,37 @@
                     </div>
                     <div class="project-info">
                         <span class="project-category">Strona WWW</span>
-                        <h3>Aplikacja do zarządzania zadaniami</h3>
-                        <p>Interaktywna tablica Kanban z przeciąganiem i upuszczaniem, filtrowaniem i raportami.</p>
+                        <h3>Safironutrition</h3>
+                        <p>Strona producenta surowców do produktów suplementów diety i produktów spożyczych. </p>
                         <div class="project-tech">
                             <span>PHP</span>
                             <span>Laravel</span>
                             <span>Tailwind CSS</span>
                             <span>Alpine JS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project WWW TARNOPOLSKA PARK -->
+                <div class="project-card" data-category="www">
+                    <div class="project-img">
+                        <div class="project-img-placeholder">
+                            <img src="media/www/tarnopolska.jpeg" id="modalImage" alt="Tarnopolska.pl - Podgląd">
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-tarnopolska').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
+                                <a href="https://dev.tarnopolska.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Strona WWW</span>
+                        <h3>Tarnopolska Park</h3>
+                        <p>Strona projektu budowy osiedla Tarnopolska Park</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>Java Script</span>
+                            <span>Bootstrap</span>
                         </div>
                     </div>
                 </div>
@@ -804,36 +829,12 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Tarnopolska Park</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt logo dla osiedla Tarnopolska Park</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
                     </div>
                 </div> 
-                <!-- Project WWW TARNOPOLSKA PARK -->
-                <div class="project-card" data-category="www">
-                    <div class="project-img">
-                        <div class="project-img-placeholder">
-                            <img src="media/www/tarnopolska.jpeg" id="modalImage" alt="Tarnopolska.pl - Podgląd">
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="javascript:void(0)" class="project-link modal-trigger" onclick="document.getElementById('modal-tarnopolska').classList.add('active');document.body.classList.add('modal-open');"><i class="fas fa-eye"></i></a>
-                                <a href="https://dev.tarnopolska.pl" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <span class="project-category">Strona WWW</span>
-                        <h3>Tarnopolska Park</h3>
-                        <p>Interaktywna tablica Kanban z przeciąganiem i upuszczaniem, filtrowaniem i raportami.</p>
-                        <div class="project-tech">
-                            <span>PHP</span>
-                            <span>Java Script</span>
-                            <span>Bootstrap</span>
-                        </div>
-                    </div>
-                </div>
                 <!-- Project LOGO ARTCREO -->
                 <div class="project-card" data-category="logo">
                     <div class="project-img">
@@ -844,7 +845,7 @@
                     <div class="project-info">
                         <span class="project-category">Logo</span>
                         <h3>Artcreo Pracownia reklamy</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt logo dla pracowni reklamy Artcreo</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -859,8 +860,8 @@
                     </div>
                     <div class="project-info">
                         <span class="project-category">Logo</span>
-                        <h3>Kameleon pracownia reklamy</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <h3>Studio Kameleon pracownia reklamy</h3>
+                        <p>Projekt logo dla pracowni reklamy Studio Kameleon</p>
                         <div class="project-tech">
                             <span>Corel DRAW</span>
                         </div>
@@ -882,7 +883,7 @@
                     <div class="project-info">
                         <span class="project-category">Sklep internetowy</span>
                         <h3>Sklep Ortuspralnia</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Projekt sklepu opartego na platformie SOTE Shop oferujący chemię gospodarczą.</p>
                         <div class="project-tech">
                             <span>SOTE Shop</span>
                         </div>
@@ -903,8 +904,8 @@
                     </div>
                     <div class="project-info">
                         <span class="project-category">Sklep internetowy</span>
-                        <h3>Sklep Aurora-labs.pl</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <h3>Hurtownia Aurora-labs.pl</h3>
+                        <p>Oprogramowanie hurtowni kosmetycznej</p>
                         <div class="project-tech">
                             <span>Octopus CMS</span>
                             <span>PHP</span>
@@ -929,7 +930,7 @@
                     <div class="project-info">
                         <span class="project-category">Sklep internetowy</span>
                         <h3>Sklep Perfumy-Aurora.pl</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Sklep internetowy z szerokim asortymentem perfum i kosmetyków oparty na platformie SOTE Shop.</p>
                         <div class="project-tech">
                             <span>SOTE Shop</span>
                         </div>
@@ -951,7 +952,7 @@
                     <div class="project-info">
                         <span class="project-category">Sklep internetowy</span>
                         <h3>Sklep Aurora-Cosmetics.pl</h3>
-                        <p>Nowoczesny sklep internetowy z panelem administracyjnym, koszykiem i integracją płatności.</p>
+                        <p>Sklep internetowy z szerokim asortymentem perfum i kosmetyków oparty na platformie SOTE Shop.</p>
                         <div class="project-tech">
                             <span>SOTE Shop</span>
                         </div>
