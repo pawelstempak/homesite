@@ -1235,13 +1235,28 @@
                 </div>
                 <div class="edu-card">
                     <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-year">2018</div>
+                    <h3>RODO</h3>
+                    <h4>Ochrona danych osobowych</h4>
+                    <p>Kurs certyfikowanego inspektora ochrony danych.</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
                         <i class="fas fa-file-invoice-dollar"></i>
                     </div>
-                    <div class="edu-year">2023</div>
+                    <div class="edu-year">2021</div>
                     <h3>Stowarzyszenie Księgowych w Polsce</h3>
                     <h4>Księgowy I stopnia</h4>
                     <p>Certyfikat potwierdzający umiejętność projektowania i wdrażania aplikacji w chmurze AWS.</p>
-                </div>                
+                </div>   
+                <div class="empty-edu-card">
+
+                </div>
+                <div class="empty-edu-card">
+
+                </div>              
             </div>
         </div>
     </section>

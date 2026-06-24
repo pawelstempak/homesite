@@ -1115,6 +1115,16 @@ img {
     border-color: var(--accent); 
 } 
  
+.empty-edu-card { 
+    background: var(--border-color); 
+    border: 1px solid var(--border-color); 
+    border-radius: 16px; 
+    padding: 2rem; 
+    text-align: center; 
+    transition: all 0.3s ease; 
+    box-shadow: var(--shadow-sm); 
+} 
+
 .edu-icon { 
     width: 64px; 
     height: 64px; 
