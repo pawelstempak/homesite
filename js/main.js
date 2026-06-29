@@ -113,8 +113,8 @@ function initTypingEffect() {
     if (!typingElement) return; 
     
     const roles = [ 
-        'Full Stack Developerem', 
         'Specjalistą IT',
+        'Web Developerem', 
         'Grafikiem'
     ]; 
     
