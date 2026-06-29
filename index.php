@@ -139,7 +139,7 @@
                     <i class="fas fa-magnifying-glass about-icon"></i>
                     <h3>Czego szukam?</h3>
                     <p>
-                        Poszukuję stanowiska Specjalisty IT lub IT developera w firmie, która stawia na 
+                        Poszukuję stanowiska Specjalisty IT lub Web Developera w firmie, która stawia na 
                         nowoczesne technologie, kulture pracy i rozwój pracowników. 
                         Cenię sobie zarówno pracę w zespole jak i możliwość autonomicznej pracy.
                     </p>
@@ -170,7 +170,7 @@
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-code"></i>
-                        <h3>IT developer</h3>
+                        <h3>Web Developer</h3>
                     </div>
                     <div class="skill-items">
                         <div class="skill-item">
